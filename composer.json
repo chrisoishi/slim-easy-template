@@ -12,6 +12,7 @@
     "scripts": {
         "serve": "cd public/ && php -S localhost:8888"
     },
+    "minimum-stability": "stable",
     "require": {
         "slim/slim": "4.*",
         "nyholm/psr7": "^1.3",
