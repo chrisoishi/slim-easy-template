@@ -4,7 +4,7 @@ Easy template for SLIM V4 with pre configurations to start dev your API quickly.
 
 The objective this template is use SLIM FRAMEWORK V4 with struct folders and basic helpers integrations of models, controller, database and auth (in future, maybe more).
 
-This template is also way to implements API efficent, organized and scalable. You don't need more time to understand this template, if you already used SLIM.
+This template is also way to implements API efficent, organized and scalable. You don't need many time to understand this template, if you already used SLIM.
 
 You can use  the Skeleton template also for develop with SLIM, this template is official: https://github.com/slimphp/Slim-Skeleton.
 
@@ -42,19 +42,19 @@ i used some ideias of skeleton template and laravel framework to make this.
 ```	
 
 ## Database
-This template based in MySQL database and Use Medoo to manage data. 
+This template based in MySQL database and use Medoo to manage data. 
 
 More informations about Medoo -> https://medoo.in/
 
 **To configure you database, edit de .env file.**
 
 ## Migrations
-For migrations this template use phinx extension ( for docs https://phinx.org/)
+For migrations, this template use phinx extension ( for docs https://phinx.org/)
 
 The default folder migrations is in db\migrations
 
 ## Models
-This template use classes of ApiSupport, avaiable in modules folder. This classes has develop by me =D (more informations about this classes will be at the end)
+This template, use classes of ApiSupport, avaiable in modules folder. This classes has develop by me =D (more informations about this classes will be at the end)
 
 Basically you need create a file in models folder with the simple code:
 
@@ -70,10 +70,10 @@ class  User  extends  Model
 	const cast = ["id"=>"interger"] #this array to cast field to necessary type
 }
 ```
-The class Model extended have many functions to manage data in database, i recommend to check this class file for learn features of this class.
+The class Model extended, have many functions to manage data in database, i recommend to check this class file for learn the features of this class.
 
 ## Controllers
-The controllers also use the classes of ApiSupport but are similar a examples in docs of SLIM.
+The controllers also use the classes of ApiSupport, but are similar a examples in docs of SLIM.
 
 ```
 The
@@ -93,7 +93,7 @@ class HomeController extends Controller{
 
 
 ### Validations request
-To validations your request data to check the example in AuthController. The validations use respect/validation package (for docs access https://github.com/Respect/Validation)
+To validations your request data, please check the example in AuthController. The validations use respect/validation package (for docs access https://github.com/Respect/Validation)
 
 ## Middlewares
 
