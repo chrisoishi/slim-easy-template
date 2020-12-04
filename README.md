@@ -12,7 +12,7 @@ i used some ideias of skeleton template and laravel framework to make this.
 
 ## Installation to test
  - Run: 
->composer install
+>composer create-project chrisoishi/slim-easy-template slim_project_name
 
 - Edit .env file with your database informations
 
